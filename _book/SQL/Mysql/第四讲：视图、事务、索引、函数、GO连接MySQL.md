@@ -1,6 +1,6 @@
----
-typora-copy-images-to: images
----
+
+## typora-copy-images-to: images
+
 
 ## 1.1  今日目标
 
@@ -1655,8 +1655,3 @@ select sum(stusex='男') 男,sum(stusex='女') 女 from stuinfo;
 ```mysql
 select stuaddress,count(stusex) 总人数, sum(stusex='男') 男,sum(stusex='女') 女 from stuinfo group by stuaddress
 ```
-
-
-
- 
-
