@@ -1588,13 +1588,6 @@ func main(){
 	*/
 
 	//操作二：执行预处理
-<!-- 	/*
-	stu:=[2][2] string{{"3","ketty"},{"4","rose"}}
-	stmt,_:=db.Prepare("insert into stu values (?,?)")		//获取预处理语句对象
-	for _,s:=range stu{
-		stmt.Exec(s[0],s[1])			//调用预处理语句
-	}
-	*/ -->
 
 	//操作三：单行查询
 	/*
